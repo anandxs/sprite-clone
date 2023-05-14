@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "AktivGrotesk";
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#header {
+    background-color: #009b4e;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#header img {
+    width: 130px;
+    height: 50px;
+}
+
+.container {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    display: flex;
+}
+
+#navigation {
+    gap: 40px;
+}
+
+#socials {
+    gap: 25px;
+}
+
+#login {
+    color: #fff;
+}
+
+#main-section {
+    height: 631px;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#bottle-img {
+    margin: 0;
+    align-self: end; 
+}
+
+#bottle-info {
+    margin: 0;
+    color: #fff;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#bottle-info h1 {
+    color: #009b4e;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#bottle-info h2 {
+    font-size: 2.2rem;
+}
+
+#bottle-info button {
+    background-color: #009b4e;
+    color: #fff;
+    align-self: flex-start;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 14px 30px;
+}
+
+#ad-section {
+    background-color: #fff;
+    margin-top: 45px;
+}
+
+#video-section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+#video-section button {
+    background-color: #ffd100;
+    font-weight: 800;
+    font-size: 0.6rem;
+    border-style: none;
+    padding: 10px 50px;
+}
+
+#video-description {
+    width: 580px;
+}
+
+#sprite-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #009b4e;
+    font-weight: 900;
+}
+
+#sprite-description h2 {
+    font-size: 2.7rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 0.8rem;
+    background-color: #009b4e;
+    padding: 30px 0;
+}
+
+#footer-row {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+footer img {
+    width: 130px;
+    height: 50px;
+}
+
+#footer-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    text-decoration: none;
+    color: #fff;
+}
