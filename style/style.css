@@ -33,6 +33,18 @@ a:hover {
     height: 50px;
 }
 
+#triangle {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -9px;
+    right: 15px;
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+}
+
 #hidden {
     display: none;
     background-color: #fff;
@@ -44,16 +56,16 @@ a:hover {
 #login:hover + #hidden {
     display: block;
     position: absolute;
-    top: 50px;
-    right: 90px;
+    top: 65px;
+    right: 70px;
     font-weight: bold;
 }
 
 #hidden:hover {
     display: block;
     position: absolute;
-    top: 50px;
-    right: 90px;
+    top: 65px;
+    right: 70px;
     font-weight: bold;
 }
 
@@ -216,6 +228,7 @@ footer {
 
 #footer-row {
     margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
