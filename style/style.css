@@ -33,6 +33,34 @@ a:hover {
     height: 50px;
 }
 
+#hidden {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #555;
+    width: 100px;
+    text-align: center;
+}
+
+#login:hover + #hidden {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    font-weight: bold;
+}
+
+#hidden:hover {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    font-weight: bold;
+}
+
+#hidden p:hover {
+    color: red;
+}
+
 .container {
     list-style: none;
     margin: 0;
