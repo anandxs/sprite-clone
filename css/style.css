@@ -21,6 +21,32 @@ a:hover {
     color: #000;
 }
 
+#cookie {
+    background-color: #e80202;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+
+#tooltip {
+    display: none;
+    color: #fff;
+    background-color: #333;
+    padding: 3px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 60px;
+}
+
+#cookie:hover + #tooltip {
+    display: block;
+}
+
 #header {
     background-color: #009b4e;
     height: 90px;
@@ -84,6 +110,10 @@ a:hover {
     margin: 0;
     display: flex;
 }
+
+/* #header a { */
+/*     flex-grow: 0.5; */
+/* } */
 
 #navigation {
     gap: 40px;
