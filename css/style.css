@@ -2,6 +2,7 @@
     font-family: 'grotesk';
     src: url(../fonts/AktivGrotesk-Black.ttf) format('truetype');
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -84,6 +85,7 @@ a:hover {
     text-align: center;
     font-size: 0.6rem;
     padding: 20px 40px;
+    font-weight: bold;
 }
 
 #login:hover + #hidden {
@@ -91,7 +93,6 @@ a:hover {
     position: absolute;
     top: 65px;
     right: 70px;
-    font-weight: bold;
 }
 
 #hidden:hover {
@@ -111,10 +112,6 @@ a:hover {
     margin: 0;
     display: flex;
 }
-
-/* #header a { */
-/*     flex-grow: 0.5; */
-/* } */
 
 #navigation {
     gap: 40px;
@@ -295,10 +292,6 @@ footer > p {
 
 #footer-socials {
     align-self: stretch;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-around; */
-    /* height: 100%; */
 }
 
 #footer-socials p {
