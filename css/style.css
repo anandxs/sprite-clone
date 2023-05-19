@@ -104,7 +104,7 @@ a:hover {
 }
 
 #hidden p:hover {
-    color: red;
+    color: #f00;
 }
 
 .container {
